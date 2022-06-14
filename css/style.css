@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6,ul,li,a,p{
     margin: 0;
@@ -12,12 +13,13 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
 .full-time-service{
     padding-bottom: 60px;
     position: relative;
+    padding-top: 10px;
 }
 .header-bg{
-    width: 50%;
+    width: 47%;
     background-color: #EFF7FF;
     border-end-end-radius: 20%;
-    height: 865px;
+    height: 830px;
     position: absolute;
     left: 0;
     top: 0;
@@ -25,7 +27,7 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
 }
 .full-time-service .logo-section-left-side h2{
     color: #000729;
-    font-size: 50px;
+    font-size: 45px;
     padding: 40px 0 15px 0;
     font-weight: 600;
 }
@@ -59,7 +61,7 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
 .full-time-service .logo-section-right-side .row{
     padding-bottom: 150px;
 }
-.full-time-service .logo-section-right-side p{
+.full-time-service .logo-section-right-side .open-p{
     color: #303945;
     font-size: 16px;
     display: flex;
@@ -99,7 +101,7 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
 }
 .full-time-service .logo-section-right-side h1{
     color: #000729;
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 600;
     padding-bottom: 180px;
 }
@@ -143,7 +145,6 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     position: absolute;
     left: 50%;
     bottom: 0%;
-    /* transform: translate(-50%,-50%); */
     z-index: 1;
 }
 .perfect-solution .plumbing-repair-service .emergency-service-man .emergency-service-content{
@@ -188,14 +189,18 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     border-radius: 15px;
     z-index: 99;
 }
+.perfect-solution .emergency-service-text h4{
+    font-size: 20px;
+    font-weight: 600;
+}
 .perfect-solution .choose-us-content h6{
     color: #FF8001;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     padding-bottom: 10px;
 }
 .perfect-solution .choose-us-content h1{
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 600;
     padding-bottom: 10px;
     color: #000729;
@@ -230,11 +235,13 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
 }
 .our-plumbing-service h6{
     color: #FF8001;
+    font-weight: 600;
+    font-size: 18px;
     padding-bottom: 10px;
 }
 .our-plumbing-service h1{
     color: #000729;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 600;
     padding-bottom: 20px;
 }
@@ -242,7 +249,7 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     color: #303945;
 }
 .our-plumbing-service .call-us-btn{
-    padding: 15px 40px;
+    padding: 15px 45px;
     font-size: 20px;
 }
 .carousel-content-box{
@@ -313,8 +320,9 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     fill: #1F80E6;
 }
 .carousel-content-box h5{
+    color: #000729;
     padding-top: 25px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
 .what-we-offer{
@@ -352,6 +360,9 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     bottom: 16%;
     z-index: -1;
 }
+.what-we-offer .emergency-service-text{
+    margin-left: 80px;
+}
 footer{
     background-color: #1E2858;
     padding: 280px 0 30px 0;
@@ -359,7 +370,7 @@ footer{
 footer .footer-call-service{
     background-color: #1F80E6;
     border-radius: 20px;
-    padding: 80px 30px;
+    padding: 60px 30px;
     position: absolute;
     top: -100%;
     transform: translateY(-80%);
@@ -367,25 +378,25 @@ footer .footer-call-service{
 }
 footer .footer-call-service img{
     position: absolute;
-    top: 0%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 footer .footer-call-service h3{
     color: #fff;
-    font-size: 45px;
+    font-size: 36px;
     font-weight: 600;
     padding-bottom: 10px;
 }
 footer .footer-call-service p{
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 20px;
 }
 footer .footer-call-service .number-btn{
     color: #1F80E6;
     background-color: #fff;
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 600;
     padding: 12px 35px;
     border-radius: 15px;
@@ -402,7 +413,7 @@ footer .footer-menu ul li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
 }
 footer .footer-menu ul li a:hover{
     color: #1F80E6;
@@ -413,7 +424,7 @@ footer .footer-menu ul li a:hover{
 }
 footer p{
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px 0;
 }
 .footer-container{
