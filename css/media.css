@@ -136,141 +136,279 @@
         border-radius: 14px;
     }
 }
+
 @media screen and (max-width: 992px) {
     .header-bg{
-        height: 730px;
+        height: 555px;
+        width: 49%;
     }
     .full-time-service .logo-section-left-side h2{
-        font-size: 40px;
+        font-size: 36px;
     }
-    .call-btn-icon{
-        width: 45px;
-        height: 45px;
+    .full-time-service .logo-section-left-side p{
+        font-size: 14px;
+    }
+    .full-time-service .logo-section-right-side .open-p{
+        justify-content: start;
     }
     .call-btn-icon img{
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
     }
     .full-time-service .logo-section-right-side .row{
-        padding-bottom: 80px;
-    }
-    .full-time-service .logo-section-right-side ul li h3{
-        font-size: 20px;
+        padding-bottom: 60px;
     }
     .full-time-service .logo-section-right-side h1{
-        font-size: 55px;
+        font-size: 40px;
     }
     .full-time-service .logo-section-right-side .plumber-img-1 .call-btn-orange img{
-        width: 25px;
-        height: 25px;
-    }
-    .full-time-service .logo-section-right-side .plumber-img-1 .call-btn-orange{
-        width: 70px;
-        height: 70px;
-        left: 60px;
-        top: 0px;
-    }
-    .full-time-service .logo-section-right-side .call-arrow{
-        left: 150px;
-    }
-    .perfect-solution .plumbing-repair-service .serviceman-bg-orange{
-        width: 200px;
-        height: 200px;
-        border-radius: 12px;
-        left: -5%;
-        bottom: 15%;
-    }
-    .perfect-solution .call-btn-orange{
-        width: 70px;
-        height: 70px;
-        font-size: 20px;
-        left: 40px; 
-    }
-    .perfect-solution .emergency-service-text{
-        margin-left: 20px;
-        width: 260px;
-        height: 120px;
-    }
-    .perfect-solution .emergency-service-text h4{
-        font-size: 18px;
-    }
-    .perfect-solution .choose-us-content h1{
-        font-size: 40px;
-        font-weight: 600;
-    }
-    .our-plumbing-service h1{
-        font-size: 40px;
-    }
-    .call-us-btn{
-        padding: 12px 30px;
-        font-size: 16px;
-    }
-    .call-us-btn img{
-        width: 20px;
-        height: 20px;
-    }
-    .our-plumbing-service .call-us-btn{
-        padding: 15px 35px;
-        font-size: 17px;
-    }
-    .our-plumbing-service-first-row .call-us-btn img{
         width: 22px;
         height: 22px;
     }
-    .carousel-content-box{
-        border-radius: 12px;
-        padding: 80px 50px;
+    .full-time-service .logo-section-right-side .plumber-img-1 .call-btn-orange{
+        width: 65px;
+        height: 65px;
+        left: 40px;
+        top: 0px;
     }
-    .carousel-img-circle{
-        height: 150px;
+    .full-time-service .logo-section-right-side .call-arrow{
+        left: 120px;
+    }
+    .perfect-solution .plumbing-repair-service .serviceman-bg-orange{
         width: 150px;
+        height: 150px;
+        border-radius: 12px;
+        left: -5%;
+        bottom: 12%;
     }
-    .carousel-img-circle svg{
-        width: 40%;
+    .perfect-solution .call-btn-orange{
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+        left: 30px; 
     }
-    .carousel-content-box h5{
-        font-size: 18px;
+    .perfect-solution .emergency-service-text{
+        margin-left: 10px;
+        width: 200px;
+        height: 100px;
+        padding-top: 35px;
+    }
+    .perfect-solution .emergency-service-text h4{
+        font-size: 16px;
+    }
+    .perfect-solution .choose-us-content h6{
+        font-size: 16px;
+    }
+    .perfect-solution .choose-us-content h1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .perfect-solution .choose-us-content ul li p{
+        font-size: 17px;
+    }
+    .our-plumbing-service h1{
+        font-size: 30px;
+    }
+    .our-plumbing-service h6{
+        font-size: 16px;
+    }
+    .our-plumbing-service p{
+        font-size: 15px;
     }
     .what-we-offer .circle-img{
-        left: -90px;
+        left: -60px;
         width: 30%;
     }
     .perfect-solution .plumbing-work-station .serviceman-bg-blue{
-        width: 200px;
-        height: 200px;
-        border-radius: 15px;
-        position: absolute;
-        right: 15%;
-        bottom: 22%;
-        z-index: -1;
+        width: 150px;
+        height: 150px;
+        border-radius: 12px;
     }
     .what-we-offer .emergency-service-text{
-        margin-left: 50px;
-    }
-    .what-we-offer .call-btn-blue{
-        font-size: 16px;
+        margin-left: 45px;
     }
     .what-we-offer{
-        padding-bottom: 380px;
-    }
-    footer{
-        padding: 200px 0 30px 0;
+        padding-bottom: 320px;
     }
     footer .footer-call-service{
-        padding: 50px 30px;
+        padding: 40px 30px;
         top: -70%;
     }
-    footer .footer-call-service img{
-        width: 90%;
+    footer .footer-call-service .number-btn{
+        font-size: 20px;
+        padding: 12px 30px;
+        border-radius: 14px;
     }
+    footer .footer-call-service img{
+        width: 100%;
+    }
+    footer .footer-call-service h3{
+        font-size: 25px;
+    }
+    footer .footer-call-service p{
+        font-size: 13px;
+    }
+    footer .footer-menu ul li a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-bg{
+        height: 1025px;
+        width: 100%;
+        border-end-end-radius: 35%;
+    }
+    .logo-side{
+        text-align: center;
+    }
+    .show-on-mobile{
+        display: block;
+        color: #303945;
+        font-size: 40px;
+        font-weight: 600;
+        padding: 50px 0;
+    }
+    .hide-on-mobile{
+        display: none;
+    }
+    .full-time-service .logo-section-left-side h2{
+        font-size: 38px;
+        padding-top: 60px;
+    }
+    .full-time-service .logo-section-left-side p{
+        font-size: 16px;
+    }
+    .full-time-service .logo-section-right-side {
+        padding-top: 230px;
+    }
+    .full-time-service .logo-section-right-side .plumber-img-1 .call-btn-orange {
+        width: 70px;
+        height: 70px;
+        left: 70px;
+        top: 0px;
+    }
+    .full-time-service .logo-section-right-side .call-arrow {
+        left: 150px;
+    }
+    .perfect-solution .emergency-service-text {
+        margin-left: 30px;
+        width: 250px;
+    }
+    .perfect-solution .plumbing-repair-service .serviceman-bg-orange {
+        width: 230px;
+        height: 230px;
+        bottom: 15%;
+    }
+    .our-plumbing-service {
+        padding: 50px 0;
+    }
+    .carousel-content-box{
+        padding: 60px 30px;
+    }
+    .carousel-img-circle{
+        height: 120px;
+        width: 120px;
+    }
+    .carousel-img-circle svg{
+        width: 30%;
+    }
+    .carousel-content-box h5{
+        font-size: 16px;
+    }
+    .owl-carousel .owl-nav{
+        text-align: center;
+    }
+    .what-we-offer .circle-img{
+        left: -60px;
+        width: 20%;
+    }
+    .perfect-solution .plumbing-work-station .serviceman-bg-blue{
+        width: 230px;
+        height: 230px;
+        border-radius: 12px;
+    }
+    .what-we-offer .emergency-service-text{
+        margin-left: 55px;
+    }
+    .perfect-solution .call-btn-orange {
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .perfect-solution .call-btn-orange span {
+        font-size: 18px;
+    }
+    .what-we-offer{
+        padding-bottom: 500px;
+    }
+    footer{
+        padding-top: 350px;
+    }
+    footer .footer-call-service{
+        padding: 300px 20px 50px 20px;
+        top: -40%;
+        left: 0%;
+        border-radius: 50px;
+    }
+    footer .footer-call-service img{
+        width: 100%;
+        top: -100%;
+        transform: translate(-50%,-110%);
+    }
+    footer .footer-call-service .number-btn{
+        font-size: 20px;
+        padding: 12px 30px;
+        border-radius: 30px;
+    }
+    
     footer .footer-call-service h3{
         font-size: 30px;
     }
     footer .footer-call-service p{
         font-size: 15px;
     }
-    footer .footer-call-service .number-btn{
-        font-size: 22px;
-        border-radius: 14px;
+    footer .footer-menu img{
+        padding-bottom: 30px;
+    }
+    footer .footer-menu ul{
+        display: block;
+    }
+    footer .footer-menu ul li{
+        padding: 0 0 20px 0;
+    }
+    footer .footer-menu ul li a{
+        font-size: 15px;
+    }
+    footer .copyright-p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .perfect-solution .emergency-service-text {
+        margin-top: 20px;
+        margin-left: 160px;
+    }    
+    .what-we-offer .circle-img {
+        left: -20px;
+        width: 20%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .perfect-solution .emergency-service-text {
+        margin-top: 20px;
+        margin-left: 150px;
+    }    
+    .what-we-offer .circle-img {
+        left: -10px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .header-bg{
+        height: 860px;
+    }
+    .what-we-offer{
+        padding-bottom: 400px;
     }
 }
