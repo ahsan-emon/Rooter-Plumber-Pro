@@ -36,9 +36,10 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     padding: 10px 30px;
     color: #fff;
     background-color: #1F80E6;
-    font-size: 20px;
+    font-size: 18px;
     box-shadow: 5px 5px 10px #1f80e675;
     border: 0;
+    border-radius: 10px;
 }
 .call-us-btn:hover{
     background-color: #FF8001;
@@ -123,4 +124,236 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     position: absolute;
     left: 220px;
     top: -250px;
+}
+.perfect-solution{
+    padding-bottom: 60px;
+}
+.perfect-solution .plumbing-repair-service{
+    position: relative;
+    z-index: -1;
+}
+.perfect-solution .plumbing-repair-service .emergency-service-man{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    /* transform: translate(-50%,-50%); */
+}
+.perfect-solution .plumbing-repair-service .emergency-service-man .emergency-service-content{
+    position: relative;
+}
+.perfect-solution .plumbing-repair-service .serviceman-bg-orange{
+    width: 280px;
+    height: 280px;
+    background-color: #FF8001;
+    border-radius: 15px;
+    position: absolute;
+    left: -5%;
+    bottom: 15%;
+    z-index: 1;
+}
+.perfect-solution .call-btn-orange{
+    background-color: #FF8001;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    transform: translateY(-50%); 
+}
+.perfect-solution .emergency-service-text{
+    padding: 50px 30px 0 30px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #00000030;
+    position: relative;
+    margin-left: 50px;
+    width: 300px;
+    height: 120px;
+    border-radius: 15px;
+    z-index: 99;
+}
+.perfect-solution .choose-us-content h6{
+    color: #FF8001;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.perfect-solution .choose-us-content h1{
+    font-size: 65px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #000729;
+}
+.perfect-solution .choose-us-content p{
+    color: #303945;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.perfect-solution .choose-us-content ul{
+    list-style: none;
+    padding-bottom: 15px;
+}
+.perfect-solution .choose-us-content ul li p{
+    color: #303945;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.perfect-solution .choose-us-content ul li p i{
+    color: #FF8001;
+    font-size: 20px;
+    padding-right: 15px;
+}
+.our-plumbing-service{
+    padding: 80px 0;
+    background-color: #F7F9FF;
+}
+.our-plumbing-service-first-row{
+    padding-bottom: 60px;
+}
+.our-plumbing-service h6{
+    color: #FF8001;
+    padding-bottom: 10px;
+}
+.our-plumbing-service h1{
+    color: #000729;
+    font-size: 65px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.our-plumbing-service p{
+    color: #303945;
+}
+.our-plumbing-service .call-us-btn{
+    padding: 15px 40px;
+    font-size: 20px;
+}
+.carousel-content-box{
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #0000001c;
+    border-radius: 15px;
+    padding: 100px 50px;
+    margin: 40px 0;
+}
+.carousel-content-box:hover{
+    background-color: #1F80E6;
+    transition: .4s all ease-in-out;
+}
+.carousel-content-box:hover .carousel-img-circle{
+    background-color: #368DE9;
+    transition: .4s all ease-in-out;
+}
+.carousel-content-box:hover .carousel-img-circle svg{
+    fill: #fff;
+    transition: .4s all ease-in-out;
+}
+.carousel-content-box:hover h5{
+    color: #fff;
+    transition: .4s all ease-in-out;
+}
+.carousel-img-circle{
+    background-color: #E8F2FD;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.carousel-img-circle svg{
+    fill: #1F80E6;
+}
+.carousel-content-box h5{
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.what-we-offer{
+    padding-bottom: 500px;
+}
+.what-we-offer .call-btn-blue{
+    background-color: #1F80E6;
+}
+.what-we-offer .serviceman-bg-blue{
+    background-color: #1F80E6 !important;
+}
+.what-we-offer .circle-img{
+    position: absolute;
+    left: -100px;
+    bottom: 50px;
+}
+footer{
+    background-color: #1E2858;
+    position: relative;
+    padding: 280px 0 30px 0;
+}
+footer .footer-call-service{
+    background-color: #1F80E6;
+    border-radius: 20px;
+    padding: 80px 0px;
+    position: absolute;
+    top: -50%;
+    transform: translateY(10%);
+}
+footer .footer-call-service img{
+    /* width: 50%; */
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer .footer-call-service h3{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+footer .footer-call-service p{
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+footer .footer-call-service .number-btn{
+    color: #1F80E6;
+    background-color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 12px 35px;
+    border-radius: 15px;
+}
+footer .footer-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+footer .footer-menu ul li{
+    padding-left: 30px;
+}
+footer .footer-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+footer .footer-menu ul li a:hover{
+    color: #1F80E6;
+}
+.divider{
+    color: #1F80E6;
+    margin-top: 40px;
+}
+footer p{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
 }
