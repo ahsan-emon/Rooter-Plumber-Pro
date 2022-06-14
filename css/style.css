@@ -11,11 +11,22 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
 }
 .full-time-service{
     padding-bottom: 60px;
+    position: relative;
 }
-.full-time-service .logo-side{
+.header-bg{
+    width: 50%;
+    background-color: #EFF7FF;
+    border-end-end-radius: 20%;
+    height: 865px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+/* .full-time-service .logo-side{
     background-color: #EFF7FF;
     border-end-end-radius: 30%;
-}
+} */
 .full-time-service .logo-section-left-side h2{
     color: #000729;
     font-size: 50px;
@@ -137,19 +148,20 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     left: 50%;
     bottom: 0%;
     /* transform: translate(-50%,-50%); */
+    z-index: 1;
 }
 .perfect-solution .plumbing-repair-service .emergency-service-man .emergency-service-content{
     position: relative;
 }
 .perfect-solution .plumbing-repair-service .serviceman-bg-orange{
-    width: 280px;
-    height: 280px;
+    width: 300px;
+    height: 300px;
     background-color: #FF8001;
     border-radius: 15px;
     position: absolute;
     left: -5%;
-    bottom: 15%;
-    z-index: 1;
+    bottom: 9%;
+    z-index: -1;
 }
 .perfect-solution .call-btn-orange{
     background-color: #FF8001;
@@ -252,6 +264,37 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     background-color: #368DE9;
     transition: .4s all ease-in-out;
 }
+.owl-nav.disabled{
+    display: block !important;
+}
+.owl-carousel .owl-nav{
+    text-align: end;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    width: 50px;
+    height: 50px;
+    background-color: #E1EDFD;
+    border-radius: 50%;
+    color: #1F80E6;
+}
+.owl-carousel .owl-nav button.owl-next{
+    width: 50px;
+    height: 50px;
+    background-color: #E1EDFD;
+    border-radius: 50%;
+    color: #1F80E6;
+    margin-left: 10px;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: #1F80E6;
+    color: #fff;
+    transition: .3s all ease-in-out;
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: #1F80E6;
+    color: #fff;
+    transition: .3s all ease-in-out;
+}
 .carousel-content-box:hover .carousel-img-circle svg{
     fill: #fff;
     transition: .4s all ease-in-out;
@@ -279,34 +322,54 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     font-weight: 400;
 }
 .what-we-offer{
+    padding-top: 60px;
     padding-bottom: 500px;
 }
 .what-we-offer .call-btn-blue{
     background-color: #1F80E6;
-}
-.what-we-offer .serviceman-bg-blue{
-    background-color: #1F80E6 !important;
 }
 .what-we-offer .circle-img{
     position: absolute;
     left: -100px;
     bottom: 50px;
 }
+.what-we-offer .plumbing-work-station{
+    position: relative;
+    z-index: -1;
+}
+.perfect-solution .plumbing-work-station .work-station-man{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    z-index: 1;
+}
+.perfect-solution .plumbing-work-station .work-station-man .work-station-content{
+    position: relative;
+}
+.perfect-solution .plumbing-work-station .serviceman-bg-blue{
+    width: 300px;
+    height: 300px;
+    background-color: #1F80E6;
+    border-radius: 15px;
+    position: absolute;
+    right: 10%;
+    bottom: 16%;
+    z-index: -1;
+}
 footer{
     background-color: #1E2858;
-    position: relative;
     padding: 280px 0 30px 0;
 }
 footer .footer-call-service{
     background-color: #1F80E6;
     border-radius: 20px;
-    padding: 80px 0px;
+    padding: 80px 30px;
     position: absolute;
-    top: -50%;
-    transform: translateY(10%);
+    top: -100%;
+    transform: translateY(-80%);
+    width: 100%;
 }
 footer .footer-call-service img{
-    /* width: 50%; */
     position: absolute;
     top: 0%;
     left: 50%;
@@ -356,4 +419,7 @@ footer p{
     color: #fff;
     font-size: 16px;
     padding: 10px 0;
+}
+.footer-container{
+    position: relative;
 }
