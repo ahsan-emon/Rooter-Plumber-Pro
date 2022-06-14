@@ -23,10 +23,6 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     top: 0;
     z-index: -1;
 }
-/* .full-time-service .logo-side{
-    background-color: #EFF7FF;
-    border-end-end-radius: 30%;
-} */
 .full-time-service .logo-section-left-side h2{
     color: #000729;
     font-size: 50px;
