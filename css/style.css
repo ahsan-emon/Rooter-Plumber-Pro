@@ -106,7 +106,7 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     color: #000729;
     font-size: 65px;
     font-weight: 600;
-    padding-bottom: 180px;
+    padding-bottom: 220px;
 }
 .full-time-service .logo-section-right-side .plumber-img-1{
     text-align: center;
@@ -143,6 +143,7 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
 .perfect-solution .plumbing-repair-service{
     position: relative;
     z-index: -1;
+    padding-right: 60px;
 }
 .perfect-solution .plumbing-repair-service .emergency-service-man{
     position: absolute;
@@ -150,17 +151,15 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     bottom: 0%;
     z-index: 1;
 }
-.perfect-solution .plumbing-repair-service .emergency-service-man .emergency-service-content{
-    position: relative;
-}
-.perfect-solution .plumbing-repair-service .serviceman-bg-orange{
-    width: 300px;
-    height: 300px;
-    background-color: #FF8001;
-    border-radius: 15px;
+.perfect-solution .plumbing-repair-service .emergency-service-man::after{
+    content: '';
     position: absolute;
     left: -5%;
-    bottom: 9%;
+    top: -5%;
+    width: 95%;
+    height: 95%;
+    background-color: #FF8001;
+    border-radius: 15px;
     z-index: -1;
 }
 .perfect-solution .call-btn-orange{
@@ -337,12 +336,13 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
 }
 .what-we-offer .circle-img{
     position: absolute;
-    left: -100px;
+    left: -50px;
     bottom: 50px;
 }
 .what-we-offer .plumbing-work-station{
     position: relative;
     z-index: -1;
+    padding-left: 60px;
 }
 .perfect-solution .plumbing-work-station .work-station-man{
     position: absolute;
@@ -350,21 +350,19 @@ h1,h2,h3,h4,h5,h6,ul,li,a,p{
     bottom: 0%;
     z-index: 1;
 }
-.perfect-solution .plumbing-work-station .work-station-man .work-station-content{
-    position: relative;
-}
-.perfect-solution .plumbing-work-station .serviceman-bg-blue{
-    width: 300px;
-    height: 300px;
+.perfect-solution .plumbing-work-station .work-station-man::after{
+    content: '';
+    position: absolute;
+    left: -5%;
+    top: -5%;
+    width: 90%;
+    height: 90%;
     background-color: #1F80E6;
     border-radius: 15px;
-    position: absolute;
-    right: 10%;
-    bottom: 16%;
     z-index: -1;
 }
 .what-we-offer .emergency-service-text{
-    margin-left: 80px;
+    margin-left: 60px;
 }
 footer{
     background-color: #1E2858;
